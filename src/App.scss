@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Interjon';
+  src: url('./assets/fonts/inter/Inter-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter/Inter-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter/Inter-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter/Inter-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+  font-weight: 400;
+}
+
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  background-color: #030303;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+}
+
+.container {
+  max-width: 100%;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

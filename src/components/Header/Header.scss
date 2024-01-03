@@ -1,0 +1,37 @@
+.header {
+  padding: 70px 0 64px 0;
+
+  &-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 0 53px;
+  }
+
+  &-link {
+    color: #c9c9c9;
+    font-size: 23.26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.26px;
+  }
+
+  .active {
+    color: white;
+  }
+}
+
+.header-effect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1289px;
+  height: 923px;
+  background: linear-gradient(238deg, #1f020b 9.3%, rgba(31, 2, 11, 0) 83.55%);
+  z-index: -1;
+}

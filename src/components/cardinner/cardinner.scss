@@ -1,0 +1,31 @@
+.card-inner {
+    color: #fff;
+    display: flex;
+    gap: 0 90px;
+
+    li {
+        display: flex;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .tags {
+        color: #38547395;
+
+        b {
+            color: white;
+        }
+    }
+
+    .btn {
+        margin-top: 10px;
+        padding: 16px 32px;
+        border-radius: 24px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}

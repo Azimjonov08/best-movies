@@ -1,0 +1,75 @@
+.card-box {
+
+    .treding-top {
+
+        display: flex;
+        align-items: center;
+        margin-bottom: 55px;
+
+        .title {
+            color: #FFF;
+            font-size: 37px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .spanm {
+            margin-left: 16px;
+            margin-right: 20px;
+            width: 1100px;
+            height: 1px;
+            background-color: rgba(80, 74, 121, 1);
+            z-index: 12;
+        }
+
+        a {
+            color: #FFF;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+        }
+    }
+
+    .card-list {
+        display: flex;
+        gap: 70px 60px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-item {
+        overflow: hidden;
+        width: 210px;
+
+
+        img {
+            object-fit: cover;
+            width: 210px;
+            height: 315px;
+            margin-bottom: 35px;
+            transform: scale(1);
+            transition: all 1s ease;
+
+            &:hover {
+                transform: scale(1.2);
+
+            }
+        }
+
+        h3 {
+            color: #FFF;
+            margin-bottom: 13px;
+        }
+
+        .span {
+            display: flex;
+            gap: 0 34px;
+
+            span {
+                color: #F8F8F8;
+            }
+        }
+    }
+}
